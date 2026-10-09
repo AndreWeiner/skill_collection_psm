@@ -12,6 +12,10 @@ Registration does not authorize API calls, uploading files, installing software,
 recording audio or changing global settings. Check the selected helper's real
 dependencies and report unavailable capabilities plainly.
 
+When maintaining this repository, follow [CONTRIBUTING.md](CONTRIBUTING.md).
+Use a focused feature branch and the contributor's fork for pull requests to
+upstream `main`; check remotes and preserve unrelated local changes.
+
 When maintaining this repository:
 - Keep `skills/` as the source of truth; preserve complete helper/reference trees.
 - Do not copy personal configuration or secrets into distributable examples.

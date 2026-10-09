@@ -31,6 +31,9 @@ from Git, along with credentials, dependencies and personal host configuration.
 
 ## Validation and contributions
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the fork, branch, validation and pull
+request workflow for people and agents.
+
 Run `python3 -m unittest discover -s tests -v`. The plotting checks require
 Matplotlib and Pillow; the LaTeX export check skips when its tools are absent.
 Remote service access, microphones and desktop shortcuts require separate checks.
