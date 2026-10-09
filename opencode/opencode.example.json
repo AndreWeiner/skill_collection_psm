@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "scads": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "TUD:AI / ScaDS.AI",
+      "options": {
+        "baseURL": "https://llm.scads.ai/v1",
+        "apiKey": "{env:SCADSAI_API_KEY}"
+      },
+      "models": {
+        "alias-code": {
+          "name": "ScaDS code alias"
+        }
+      }
+    }
+  },
+  "model": "scads/alias-code"
+}

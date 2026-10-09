@@ -1,0 +1,4 @@
+interface:
+  display_name: "Model Compare"
+  short_description: "Compare model outputs in a side-by-side gallery"
+  default_prompt: "Use $model-compare to run the same task with suitable models and show their outputs side by side without ranking them."

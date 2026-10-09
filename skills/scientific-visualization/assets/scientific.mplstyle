@@ -1,0 +1,27 @@
+# Adaptable paper defaults. Define final widths/heights in shared project code.
+text.usetex: True
+font.family: serif
+font.size: 10
+axes.labelsize: 10
+axes.titlesize: 10
+xtick.labelsize: 9
+ytick.labelsize: 9
+legend.fontsize: 9
+lines.linewidth: 1.5
+lines.markersize: 4
+axes.linewidth: 0.8
+xtick.major.width: 0.8
+ytick.major.width: 0.8
+xtick.minor.width: 0.6
+ytick.minor.width: 0.6
+axes.grid: False
+grid.linewidth: 0.5
+grid.alpha: 0.25
+figure.facecolor: white
+axes.facecolor: white
+savefig.facecolor: white
+savefig.dpi: 300
+image.cmap: viridis
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none

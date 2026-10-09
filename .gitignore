@@ -1,0 +1,15 @@
+# Local experiments and host dependencies
+/validation/
+/.opencode/
+/.agents/
+/.codex/
+/.aws/
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*auth.json
+*.wav
+.scads-model-sync.*
